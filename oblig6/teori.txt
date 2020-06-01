@@ -1,0 +1,15 @@
+1. Hva er innkapsling? Hvorfor er det nyttig?
+
+      Svar: Det skjuler tilstanden til objektet.
+      Det er nyttig slik at annen kode ikke forandre tilstanden
+
+2. Hva er grensesnittet til en klasse? Hvordan skiller det seg fra implementasjonen av en klasse?
+
+  Svar: Grensesnittet til en klasse er alle metodene som er public,
+ altså metoder som andre objekter tilgang til. Det skiller seg fra implementasjonen av en klasse
+  ved at du kan endre klassen uten konsekvenser for klassen. Men endring av grensesnittet kan
+  ha konsekvenser for andre klasser.
+
+3. Hva er en instansmetode, og hvordan skiller dette seg fra prosedyrene/funksjonene vi har møtt hittil?
+  Svar: en instansmetode hører til objekt av en klasse. Den kan bare bli kalt når et objekt av en klassen
+  har blir lagd. mens en prosedyre/funksjon kan bli kalt direkte etter implementasjon.
